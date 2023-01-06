@@ -1,0 +1,37 @@
+.nav-container {
+  margin: 10px auto;
+  /* background-color: #eef3f8; */
+  background-color: #e6f0ef;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 2px solid #123456;
+  border-radius: 40px;
+
+  position: sticky;
+  top: 0px;
+}
+
+.logo-container {
+  font-weight: 700;
+  font-size: 2rem;
+  padding-left: 30px;
+}
+
+.menu-bar {
+  width: 30%;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 0px;
+  font-size: 1.25rem;
+}
+
+.menu-list-item {
+  padding: 0px 5px;
+}
